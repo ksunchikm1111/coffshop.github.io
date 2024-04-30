@@ -7,7 +7,7 @@ tg.MainButton.color = "#CD853F";
 
 let item = "";
 
-let btn1 = document.getElementById("btn1");
+let btn1 = document.querySelector("#btn1");
 let btn2 = document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
