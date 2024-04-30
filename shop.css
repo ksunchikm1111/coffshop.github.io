@@ -1,0 +1,36 @@
+body {
+    max-width: 390px;
+    margin: 0; /*внешние отступы*/
+    margin-top: 10px;
+    padding: 0; /*внутренние отступы*/
+    font-size: 18px;
+    background: #FFE4B5;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+}
+
+img {
+    width: 150px;
+}
+
+.item {
+    text-align: center;
+}
+
+.btn {
+    padding: 15px;
+    background: #CD853F;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    transition: background 0.4s ease;
+}
+
+.btn:hover {
+    background: #FFA500;
+}
